@@ -1,5 +1,11 @@
+import NavBar from "./components/NavBar";
+
 function App() {
-  return <h1>Budget Planner</h1>;
+  return (
+    <header>
+      <NavBar />
+    </header>
+  );
 }
 
 export default App;
